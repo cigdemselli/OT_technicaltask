@@ -3,7 +3,7 @@ This R script is to query the Open Targets REST API to get association_score.ove
 
 Running script without any parameters will give an error. Please provide a target_id such as ENSG00000146648 or disease_id such as EFO_0000616.
 
-Installation of "httr", "jsonlite", and "optparse" R packages are required. You can use:
+Installation of "httr", "jsonlite", and "optparse" R packages are required:
 
 	install.packages("httr")
 	install.packages("jsonlite")
