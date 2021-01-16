@@ -5,9 +5,9 @@ Running script without any parameters will give an error. Please provide a targe
 
 Installation of "httr", "jsonlite", and "optparse" R packages are required:
 
-	install.packages("httr")
-	install.packages("jsonlite")
-	install.packages("optparse")
+	install.packages("httr", repos="http://cran.us.r-project.org")
+	install.packages("jsonlite", repos="http://cran.us.r-project.org")
+	install.packages("optparse", repos="http://cran.us.r-project.org")
 
 Example usage in a unix-like machine for a target_id:
 
