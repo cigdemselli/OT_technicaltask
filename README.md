@@ -9,11 +9,12 @@ Installation of "httr", "jsonlite", and "optparse" R packages are required. You 
 	install.packages("jsonlite")
 	install.packages("optparse")
 
-Example usage in a unix-like machine:
+Example usage in a unix-like machine for a target_id:
 
-	Rscript scriptOT.R -t target_id
-	Rscript scriptOT.R -d disease_id
 	Rscript scriptOT.R -t ENSG00000146648
+
+Example usage in a unix-like machine for a disease_id:
+
 	Rscript scriptOT.R -d EFO_0000616
 
 Make the script exectable to succesfully run it using:
